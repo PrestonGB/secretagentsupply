@@ -36,10 +36,29 @@ header span {
   background-color: black;
   color: white;
   width: 20rem;
-  margin-top: 9rem;
-  height: 7.25rem;
+  height: auto;
+  position: relative;
+  top: 9rem;
+  font-weight: bold;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
+
+}
+
+.new h4 {
+  font-size: 1rem;
+  padding-top: 2rem;
+}
+
+.new h2 {
+  font-size: 2rem;
+  padding-top: 0.25rem;
+  padding-bottom: 2rem;
+}
+
+.new h4,
+h2 {
+  margin-left: 3rem;
 }
