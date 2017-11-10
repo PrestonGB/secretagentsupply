@@ -71,6 +71,15 @@ nav .container {
   align-items: center;
 }
 
+nav .container-mobile {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  list-style: none;
+  align-items: center;
+}
+
 .body {
   background-color: white;
 }
@@ -81,7 +90,9 @@ nav .container {
   justify-content: space-between;
 }
 
-.item {
+.item1,
+.item2,
+.item3 {
   width: 30%;
 }
 
@@ -128,4 +139,31 @@ footer {
   color: white;
   padding: 5rem;
   margin-top: 4em;
+}
+
+
+@media only screen and (max-width: 1023px) {
+  .item1, .item2 {
+    width: 47%;
+  }
+  .item3 {
+    display: none;
+  }
+  h4 {
+    font-size:.75rem;
+  }
+  .new h2 {
+    font-size: 1.5rem;
+
+  }
+  nav .container {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+  nav .container-mobile {
+    display:none;
+  }
 }
