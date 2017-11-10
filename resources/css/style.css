@@ -149,7 +149,7 @@ footer {
   .item3 {
     display: none;
   }
-  h4 {
+  .new h4 {
     font-size:.75rem;
   }
   .new h2 {
@@ -165,5 +165,29 @@ footer {
 @media only screen and (min-width: 1024px) {
   nav .container-mobile {
     display:none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .item2 {
+    display: none;
+  }
+  .item1 {
+    width: 90%;
+  }
+  .items {
+    justify-content: center;
+  }
+  footer {
+    text-align: center;
+    font-size: 0.5rem;
+  }
+ h4 {
+    font-size: 0.77rem;
+  }
+  .new h2 {
+    font-size: 1rem;
+  }
+  .new {
   }
 }
