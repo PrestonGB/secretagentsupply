@@ -1,0 +1,27 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  width: 960px;
+  font-family: "Helvetica" sans-serif;
+}
+
+header {
+  background-color: black;
+  color: white;
+  height: 2.32rem;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+header span {
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+
+}
