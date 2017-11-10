@@ -87,6 +87,16 @@ nav {
   width: 30%;
   border: 4px solid black;
   text-align: center;
+  height: auto;
+}
+
+.item img {
+  height: 9rem;
+  width: auto;
+  max-width: 100%;
+  max-height: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .item p {
@@ -95,13 +105,6 @@ nav {
   text-align: center;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-}
-
-.item img {
-  height: 9rem;
-  width: auto;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .contact {
@@ -124,4 +127,14 @@ nav {
   padding-left: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
 }
