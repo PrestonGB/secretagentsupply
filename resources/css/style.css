@@ -25,3 +25,21 @@ header span {
   padding-bottom: 0.66rem;
 
 }
+
+.splash {
+  background-image: url("c://projects/secretagentsupply/resources/moto.jpeg");
+  background-size: cover;
+  height: 25rem;
+}
+
+.new {
+  background-color: black;
+  color: white;
+  width: 20rem;
+  margin-top: 9rem;
+  height: 7.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
